@@ -1,6 +1,6 @@
 {
   "name": "ngx-sortablejs-angular14",
-  "version": "14.0.0",
+  "version": "14.0.1",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
