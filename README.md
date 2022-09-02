@@ -21,8 +21,12 @@ You are configured now. If you use Webpack or Angular CLI go to the usage. If yo
 
 ## Usage
 
-First, import `SortablejsModule.forRoot({ /* and here some global settings if needed */ })` into the root module of your application:
-*(Notice the following import statement: import { SortablejsModule } from 'ngx-sortablejs-angular14/dist/ngx-sortablejs';)*
+First, import `SortablejsModule.forRoot({ /* and here some global settings if needed */ })` into the root module of your application:  
+  
+*Notice the following import statement:*  
+```typescript
+import { SortablejsModule } from 'ngx-sortablejs-angular14/dist/ngx-sortablejs';
+```  
 
 ```typescript
 imports: [
