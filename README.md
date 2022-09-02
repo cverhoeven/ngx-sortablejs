@@ -14,8 +14,7 @@ Trees are also supported: [tree with fake root element (\*ngFor once, root can a
 ## Installation
 
 ```sh
-npm i -S ngx-sortablejs sortablejs
-npm i -D @types/sortablejs
+npm i ngx-sortablejs-angular14
 ```
 
 You are configured now. If you use Webpack or Angular CLI go to the usage. If you have SystemJS, that's sad, but you can go to the end of the document to find configuration steps there.
@@ -23,6 +22,7 @@ You are configured now. If you use Webpack or Angular CLI go to the usage. If yo
 ## Usage
 
 First, import `SortablejsModule.forRoot({ /* and here some global settings if needed */ })` into the root module of your application:
+*(Notice the following import statement: import { SortablejsModule } from 'ngx-sortablejs-angular14/dist/ngx-sortablejs';)*
 
 ```typescript
 imports: [
