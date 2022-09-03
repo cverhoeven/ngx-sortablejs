@@ -1,3 +1,10 @@
+# [14.0.2] (2022-09-03)
+
+
+### Features
+
+* migrate to Angular 14
+
 # [10.1.0](https://github.com/SortableJS/ngx-sortablejs/compare/v10.0.0...v10.1.0) (2020-12-25)
 
 
